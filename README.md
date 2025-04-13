@@ -31,10 +31,7 @@ A modern text editor with AI capabilities, built in Rust. Features include synta
 ## Installation
 
 1. Clone the repository:
-   ```
-   git clone https://github.com/yourusername/txt_ml.git
-   cd txt_ml
-   ```
+  
 
 2. Build the project:
    ```
