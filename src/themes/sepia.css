@@ -1,0 +1,105 @@
+body {
+    background-color: #f4ecd8;
+    color: #433422;
+    font-family: 'Consolas', 'Monaco', monospace;
+    line-height: 1.5;
+    padding: 1em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #704214;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+}
+
+code {
+    background-color: #e8e0d0;
+    color: #433422;
+    padding: 0.2em 0.4em;
+    border-radius: 3px;
+    font-family: 'Consolas', 'Monaco', monospace;
+}
+
+pre {
+    background-color: #e8e0d0;
+    color: #433422;
+    padding: 1em;
+    border-radius: 5px;
+    overflow-x: auto;
+}
+
+pre code {
+    background-color: transparent;
+    padding: 0;
+}
+
+a {
+    color: #704214;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+blockquote {
+    border-left: 4px solid #704214;
+    margin: 0;
+    padding-left: 1em;
+    color: #5c4a37;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 1em 0;
+}
+
+th, td {
+    border: 1px solid #d4c4b4;
+    padding: 0.5em;
+    text-align: left;
+}
+
+th {
+    background-color: #e8e0d0;
+    color: #704214;
+}
+
+/* Syntax highlighting */
+.hljs-keyword {
+    color: #704214;
+}
+
+.hljs-string {
+    color: #8b4513;
+}
+
+.hljs-comment {
+    color: #5c4a37;
+}
+
+.hljs-function {
+    color: #8b6b43;
+}
+
+.hljs-number {
+    color: #6b4423;
+}
+
+.hljs-operator {
+    color: #433422;
+}
+
+.hljs-class {
+    color: #8b6b43;
+}
+
+.hljs-variable {
+    color: #704214;
+}
+
+/* MathJax styling */
+.MathJax {
+    color: #433422;
+} 
